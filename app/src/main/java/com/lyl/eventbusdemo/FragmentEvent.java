@@ -6,6 +6,8 @@ package com.lyl.eventbusdemo;
  */
 
 public class FragmentEvent {
+
+
     private String messge;
 
     public String getMessge() {
