@@ -14,5 +14,6 @@ public class MyActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.myactivity);
+        Utils.toast(this);
     }
 }

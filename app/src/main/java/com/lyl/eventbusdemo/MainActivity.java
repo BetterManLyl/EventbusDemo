@@ -6,6 +6,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.widget.Button;
+import android.widget.Toast;
 
 import org.greenrobot.eventbus.EventBus;
 
@@ -13,6 +14,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.Unbinder;
+import runa.mylibrary.MyActivity;
+import runa.mylibrary.Utils;
 
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.tablayout)
@@ -37,8 +40,6 @@ public class MainActivity extends AppCompatActivity {
         unbinder = ButterKnife.bind(this);
         getExtraValue();
         initView();
-
-
     }
 
     @Override
