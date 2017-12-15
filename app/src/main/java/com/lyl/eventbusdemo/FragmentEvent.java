@@ -7,6 +7,7 @@ package com.lyl.eventbusdemo;
 
 public class FragmentEvent {
 
+    //测试clone本地后 上传
 
     private String messge;
 
