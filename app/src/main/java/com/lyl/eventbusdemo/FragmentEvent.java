@@ -20,6 +20,6 @@ public class FragmentEvent {
     }
 
     public FragmentEvent() {
-        this.messge = messge;
+
     }
 }
