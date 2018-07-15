@@ -22,4 +22,5 @@ public class FragmentEvent {
     public FragmentEvent() {
 
     }
+	//测试
 }
