@@ -16,5 +16,6 @@ public class TestBranch {
     //测试冲突提交
 
     //1
+    //2
 
 }
