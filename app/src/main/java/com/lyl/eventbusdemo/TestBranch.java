@@ -6,4 +6,5 @@ package com.lyl.eventbusdemo;
  */
 
 public class TestBranch {
+    //测试
 }
